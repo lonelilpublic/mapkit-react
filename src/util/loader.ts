@@ -23,7 +23,7 @@ export default function load(token: string): Promise<void> {
 
       resolve();
     }, { once: true });
-    script.src = 'https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js';
+    script.src = 'https://mapkit.lonelil.com/mk/5.x.x/mapkit.js';
     script.crossOrigin = 'anonymous';
     document.head.appendChild(script);
   });
